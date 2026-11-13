@@ -77,7 +77,7 @@
       else link.removeAttribute('aria-current');
     });
 
-    if (!motionPaused && window.innerWidth > 580 && performance.now() > manualSceneUntil) {
+    if (!motionPaused && window.innerWidth > 700 && performance.now() > manualSceneUntil) {
       let nearest = activeScene;
       let closest = Infinity;
       steps.forEach((step, index) => {
